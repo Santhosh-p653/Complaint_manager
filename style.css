@@ -1,0 +1,61 @@
+body {
+  background: radial-gradient(circle at top left, #0a0a0a, #121212);
+}
+
+.circle-wrapper {
+  position: relative;
+  width: 350px;
+  height: 350px;
+}
+
+.circle-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 350px;
+  height: 350px;
+  background: #1c1c1c;
+  border-radius: 50%;
+  box-shadow: 0 0 25px #00ffff88;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  padding: 1.5rem;
+}
+
+.tick {
+  position: absolute;
+  width: 4px;
+  height: 12px;
+  background-color: #00ffffcc;
+  top: 10px;
+  left: 50%;
+  transform-origin: center 165px;
+  z-index: 1;
+}
+
+.power-btn {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  font-size: 1.2rem;
+  box-shadow: 0 0 10px #00ffff55;
+  z-index: 3;
+}
+
+.form-control {
+  background: #2a2a2a;
+  color: #fff;
+  border: none;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 10px #00ffff88;
+}
+
+.btn-info {
+  box-shadow: 0 0 12px #00ffff88;
+  font-weight: bold;
+}
